@@ -15,10 +15,11 @@
 }
 
 .title-bar{
-    height:6vh;
+    height:4vh;
     width: 100vw;
     text-align: center;
     background: hsla(133, 61%, 77%, 0.527);
+    padding-top: 2px;
 }
 
 .parent{
