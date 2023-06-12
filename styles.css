@@ -22,18 +22,20 @@
     padding-top: 2px;
 }
 
-.footer
-
-.parent{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5vw;
-
+.container-projects{
+    display:flex;
+    justify-content:space-around;
 }
 
-.child{
-    grid-column: 1/2;
-    grid-row: 1/ span 3;
+.container-projects div{
+    border:1px #505A5B solid;
+    padding:10px;
+    height:40vh;
+}
+
+img{
+    max-width: 50%;
+    height: auto;
 }
 
 @media screen and (min-width: 800px){
@@ -46,9 +48,12 @@
 
 @media screen and (min-width: 801px) and (max-width: 1037px){
     .link-bar{
-        width: 75px;
-        height: 85px;
-        background-color: #86BAA1;
+        text-align: right;
+        align-self:right;
+        width: 125px;
+        height: 100px;
+        background: hsla(133, 61%, 77%, 0.527);
+        text-align: left;
     }
 }
 
