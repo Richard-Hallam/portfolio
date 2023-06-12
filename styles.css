@@ -21,7 +21,7 @@
 }
 
 .title-bar{
-    height:4vh;
+    height:3vh;
     width: 100vw;
     text-align: center;
     background: hsla(133, 61%, 77%, 0.527);
@@ -50,11 +50,17 @@
 .grid{
     display:grid;
     grid-template-columns: 1fr 2fr;
-    background:hsla(133, 61%, 77%, 0.527)
+    background:hsla(133, 61%, 77%, 0.527);
+    
 }
 
 .grid-box{
     font-size: 3vh;
+    padding:10px;
+}
+
+p{
+    font-size: large;
 }
 
 img{
