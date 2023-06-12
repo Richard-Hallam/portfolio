@@ -4,6 +4,11 @@
     color:#505A5B
 }
 
+.page{
+    background-image: url(images/background.jpg);
+    background-color:#86baa175;
+    background-size: cover;
+}
 
 .link-bar{
     height:5vh;
@@ -22,44 +27,66 @@
     padding-top: 2px;
 }
 
+.about-me-grid{
+    display:grid;
+
+}
+
 .container-projects{
     display:flex;
     justify-content:space-around;
+    background: hsla(133, 61%, 77%, 0.527);
 }
 
 .container-projects div{
     border:1px #505A5B solid;
     padding:10px;
-    height:40vh;
+    height:55vh;
+    align-content: center;
+    text-align: center;
 }
 
 img{
-    max-width: 50%;
+    max-width: 50em;
     height: auto;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (max-width: 800px){
     .link-bar{
-        text-align: right;
-        align-self: right;
-        width: 20vw
+        text-align: center;
+        align-self: center;
+        
     }
+    .container-projects{
+        flex-direction: column;
+    }
+    
 }
 
 @media screen and (min-width: 801px) and (max-width: 1037px){
     .link-bar{
-        text-align: right;
-        align-self:right;
-        width: 125px;
-        height: 100px;
+        text-align: center;
+        align-self:center;
         background: hsla(133, 61%, 77%, 0.527);
-        text-align: left;
+        
+    }
+    .container-projects{
+        flex-direction: column;
+    }
+    img{
+        align-self: center;
+        height: auto;
+        width: fit-content;
+    }
+    .container-projects div{
+        height:auto;
+        width: auto;
     }
 }
 
 @media  screen and (min-width: 1038px) {
     .link-bar{
-        text-align: right;
+        text-align: center;
         width:100vw;
     }
     
