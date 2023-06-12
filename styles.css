@@ -8,6 +8,7 @@
     background-image: url(images/background.jpg);
     background-color:#86baa175;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .link-bar{
@@ -46,8 +47,18 @@
     text-align: center;
 }
 
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    background:hsla(133, 61%, 77%, 0.527)
+}
+
+.grid-box{
+    font-size: 3vh;
+}
+
 img{
-    max-width: 50em;
+    max-width: 33vw;
     height: auto;
 }
 
@@ -74,9 +85,7 @@ img{
         flex-direction: column;
     }
     img{
-        align-self: center;
-        height: auto;
-        width: fit-content;
+        max-width: 100;
     }
     .container-projects div{
         height:auto;
