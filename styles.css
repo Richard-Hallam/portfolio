@@ -4,10 +4,17 @@
     color:#505A5B
 }
 
+#message{
+    width:25vw;
+    height:15vw;
+}
+
 .page{
     background-image: url(images/background.jpg);
     background-color:#86baa175;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
 }
 
@@ -23,7 +30,7 @@
 
 .title-bar{
     height:3vh;
-    min-height: 25px;
+    min-height: 30px;
     width: 100vw;
     text-align: center;
     background: hsla(133, 61%, 77%, 0.527);
@@ -74,6 +81,19 @@
     padding:10px;
 }
 
+.table{
+    background: hsla(133, 61%, 77%, 0.527);
+    width:100vw;
+}
+
+.table-heading{
+    font-size:large;
+}
+
+.table-text{
+    font-size:medium;
+}
+
 .footer{
     background: hsla(133, 61%, 77%, 0.527);
 }
@@ -83,8 +103,8 @@ fieldset{
 }
 
 legend{
-    color:rgb(255, 95, 3);
-    font-weight: 300;
+    color:rgb(255, 255, 255);
+    font-weight: 500;
 }
 
 p{
