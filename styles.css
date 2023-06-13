@@ -78,6 +78,15 @@
     background: hsla(133, 61%, 77%, 0.527);
 }
 
+fieldset{
+    background: hsla(133, 61%, 77%, 0.527);
+}
+
+legend{
+    color:rgb(255, 95, 3);
+    font-weight: 300;
+}
+
 p{
     font-size: large;
 }
