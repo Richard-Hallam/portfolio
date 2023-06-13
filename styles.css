@@ -59,6 +59,10 @@
     padding:10px;
 }
 
+.footer{
+    background: hsla(133, 61%, 77%, 0.527);
+}
+
 p{
     font-size: large;
 }
