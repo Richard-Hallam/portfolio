@@ -12,16 +12,18 @@
 }
 
 .link-bar{
-    height:5vh;
+    height:3vh;
+    min-height:35px;
     width:100vw;
     background:hsla(133, 61%, 77%, 0.527);
     text-align: center;
-    font-size: 3vh;
+    font-size:30px;
     color:#505A5B;
 }
 
 .title-bar{
     height:3vh;
+    min-height: 25px;
     width: 100vw;
     text-align: center;
     background: hsla(133, 61%, 77%, 0.527);
@@ -33,6 +35,19 @@
 
 }
 
+.section-title{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.about-me-list{
+    font-size: xx-large;
+}
+
+.list-item{
+    font-size:x-large;
+}
+
 .container-projects{
     display:flex;
     justify-content:space-around;
@@ -42,7 +57,7 @@
 .container-projects div{
     border:1px #505A5B solid;
     padding:10px;
-    height:55vh;
+    height:auto;
     align-content: center;
     text-align: center;
 }
@@ -68,7 +83,7 @@ p{
 }
 
 img{
-    max-width: 33vw;
+    max-width: 30vw;
     height: auto;
 }
 
@@ -95,7 +110,7 @@ img{
         flex-direction: column;
     }
     img{
-        max-width: 100;
+        max-width: 90;
     }
     .container-projects div{
         height:auto;
