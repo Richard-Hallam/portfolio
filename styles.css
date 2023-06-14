@@ -68,12 +68,15 @@
 
 .container-projects{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
     background: hsla(133, 61%, 77%, 0.527);
 }
 
 .container-projects div{
     border:1px #505A5B solid;
+    height:30vw;
+    width:30vw;
     padding:10px;
     height:auto;
     align-content: center;
@@ -137,6 +140,7 @@ img{
     }
     .container-projects{
         flex-direction: column;
+        flex-wrap:wrap;
     }
     
 }
